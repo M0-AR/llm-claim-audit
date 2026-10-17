@@ -34,6 +34,11 @@ class ReadmeContractTests(unittest.TestCase):
         self.assertTrue(blob.startswith(b"GIF8"))
         self.assertLess(len(blob), 5_000_000)
 
+    def test_readme_documents_live_links(self):
+        live = "https://m0-ar.github.io/llm-claim-audit"
+        for suffix in ("/", "/preview.html", "/docs/preview.html"):
+            self.assertIn(live + suffix, README_TEXT)
+
 
 class SiteTests(unittest.TestCase):
     def test_site_exists_and_carries_headline_numbers(self):
@@ -77,9 +82,13 @@ class RedirectTests(unittest.TestCase):
             text = (ROOT / name).read_text(encoding="utf-8")
             self.assertIn('http-equiv="refresh"', text)
             self.assertIn("docs/index.html", text)
+        docs_preview = (ROOT / "docs" / "preview.html").read_text(encoding="utf-8")
+        self.assertIn('http-equiv="refresh"', docs_preview)
+        self.assertIn("index.html", docs_preview)
 
     def test_nojekyll_present(self):
         self.assertTrue((ROOT / "docs" / ".nojekyll").exists())
+        self.assertTrue((ROOT / ".nojekyll").exists())
 
 
 if __name__ == "__main__":
