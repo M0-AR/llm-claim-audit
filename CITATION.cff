@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or its claim ledger, please cite it as below."
+title: "llm-claims-lab: A reproducible audit of practitioner LLM claims, 20 months later"
+authors:
+  - name: "llm-claims-lab contributors"
+type: software
+license: MIT
+repository-code: "https://example.invalid/llm-claims-lab"
+abstract: >-
+  Reproducible pipeline that verifies the material claims of a widely cited
+  practitioner video ("How I use LLMs", February 2025) against primary sources,
+  live market data (2026), and public benchmark datasets, with preregistered
+  protocols for the parts that require model access.
+keywords:
+  - reproducibility
+  - LLM evaluation
+  - temporal validity
+  - benchmark audit
+  - open data
+version: 1.0.0
+date-released: "2026-10-17"

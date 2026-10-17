@@ -1,0 +1,4 @@
+# Core pipeline runs on the Python standard library only (no installs needed).
+# tiktoken enables the token re-enactment experiment (E4) and is pinned to the
+# version verified on 2026-10-17 (see README section 5).
+tiktoken==0.14.0

@@ -1,0 +1,17 @@
+services:
+  snapshot:
+    build: .
+    image: llm-claims-lab:latest
+    network_mode: "none"
+    volumes:
+      - ./results:/app/results
+    command: ["python", "scripts/run_all.py", "--mode", "snapshot"]
+
+  live:
+    build: .
+    image: llm-claims-lab:latest
+    profiles: ["live"]
+    volumes:
+      - ./data/live-live:/app/data/live-live
+      - ./results/live:/app/results/live
+    command: ["python", "scripts/run_all.py", "--mode", "live"]

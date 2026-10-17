@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-17T18:35:25Z",
+  "dataset_a": {
+    "name": "Kaggle: LLM Benchmark Wars 2025-2026 (24 models)",
+    "n_models": 24,
+    "top5": [
+      {
+        "model": "GPT-5.2",
+        "score": 90.3,
+        "rank": 1
+      },
+      {
+        "model": "Gemini 3.1 Pro",
+        "score": 90.22,
+        "rank": 2
+      },
+      {
+        "model": "Claude Opus 4.6",
+        "score": 89.6,
+        "rank": 3
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "score": 88.82,
+        "rank": 4
+      },
+      {
+        "model": "GPT-5.3 Codex",
+        "score": 88.62,
+        "rank": 5
+      }
+    ],
+    "top1_minus_top2": 0.08,
+    "top1_minus_top5": 1.68,
+    "adjacent_gaps_top10": {
+      "GPT-5.2 -> Gemini 3.1 Pro": 0.08,
+      "Gemini 3.1 Pro -> Claude Opus 4.6": 0.62,
+      "Claude Opus 4.6 -> Claude Opus 4.5": 0.78,
+      "Claude Opus 4.5 -> GPT-5.3 Codex": 0.2,
+      "GPT-5.3 Codex -> o3": 1.72,
+      "o3 -> Gemini 2.5 Pro": 0.25,
+      "Gemini 2.5 Pro -> Qwen3.5 Plus": 0.25,
+      "Qwen3.5 Plus -> MiniMax-M2.5": 1.95,
+      "MiniMax-M2.5 -> Claude Sonnet 4.6": 0.1,
+      "Claude Sonnet 4.6 -> Grok 4.1": 1.87
+    },
+    "adjacent_gaps_within_2_5_pts": 10,
+    "plateau_threshold_points": 2.5,
+    "bootstrap": {
+      "models_used": [
+        "GPT-5.2",
+        "GPT-5.3 Codex",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
+        "Claude Opus 4.5",
+        "o3",
+        "Qwen3.5 Plus",
+        "Grok 4.1",
+        "Gemini 2.5 Pro",
+        "Claude Sonnet 4.6",
+        "MiniMax-M2.5",
+        "DeepSeek R1",
+        "DeepSeek V3.2",
+        "Llama 4 Maverick",
+        "Llama 4 Scout",
+        "GPT-4o",
+        "Claude Haiku 4.5",
+        "Mistral Large 3",
+        "GLM-5",
+        "Gemini 2.5 Flash",
+        "Llama 3.3 70B",
+        "Mistral Medium 3",
+        "Granite 3.3 8B",
+        "Gemma 3n E4B"
+      ],
+      "replicates": 10000,
+      "seed": 20261017,
+      "items_resampled": [
+        "mmlu",
+        "humaneval",
+        "gpqa_diamond",
+        "swe_bench",
+        "hellaswag",
+        "aime_2025"
+      ],
+      "top1_retention": 0.4492,
+      "top3_set_retention": 0.6104,
+      "top1_distribution": {
+        "GPT-5.2": 4492,
+        "GPT-5.3 Codex": 3298,
+        "Gemini 3.1 Pro": 2143,
+        "Claude Opus 4.6": 45,
+        "o3": 22
+      }
+    }
+  },
+  "dataset_b": {
+    "name": "Kaggle: Frontier AI Models Intelligence Hub",
+    "registry": {
+      "n_models": 90,
+      "n_deprecated": 0,
+      "deprecated_examples": [],
+      "n_arena_elo_pairs": 90,
+      "arena_elo_pearson": -0.0015,
+      "arena_elo_mean_gap": 15.21
+    }
+  },
+  "external_reference": {
+    "scale_labs_multichallenge_2026_10_17": "Top-3 models within a 2.5-point band; open models lag 15-20 points (labs.scale.com/blog/multichallenge-update)",
+    "swebench_resolution_audit": "29/29 adjacent Verified pairs not separable at alpha=0.05 (arXiv:2609.17394)",
+    "zenodo_resolution_bound": "delta >= 2.80*sqrt(d/n) predicts decidable pairs; SWE-bench Verified 129/133 adjacent ranks inseparable (Zenodo 10.5281/zenodo.22541065)"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "CoinGecko",
+  "endpoint": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=eur&days=7&interval=daily",
+  "retrieved_via": "openresearch MCP get_crypto_price",
+  "fetched_at": "2026-10-17T21:35:00Z",
+  "coin": "bitcoin",
+  "quote": "eur",
+  "prices": [
+    {"date": "2026-10-10", "close": 74105.00},
+    {"date": "2026-10-11", "close": 74647.21},
+    {"date": "2026-10-12", "close": 73622.81},
+    {"date": "2026-10-13", "close": 74529.10},
+    {"date": "2026-10-14", "close": 73012.82},
+    {"date": "2026-10-15", "close": 73458.92},
+    {"date": "2026-10-16", "close": 72695.87},
+    {"date": "2026-10-17", "close": 72492.84}
+  ]
+}

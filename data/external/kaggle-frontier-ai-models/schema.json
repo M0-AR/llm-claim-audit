@@ -1,0 +1,522 @@
+{
+  "model_id": {
+    "type": "String",
+    "nullable": true
+  },
+  "model_name": {
+    "type": "String",
+    "nullable": true
+  },
+  "model_slug": {
+    "type": "String",
+    "nullable": true
+  },
+  "provider_id": {
+    "type": "String",
+    "nullable": true
+  },
+  "provider_name": {
+    "type": "String",
+    "nullable": true
+  },
+  "release_date": {
+    "type": "String",
+    "nullable": true
+  },
+  "version": {
+    "type": "String",
+    "nullable": true
+  },
+  "model_family": {
+    "type": "String",
+    "nullable": true
+  },
+  "model_generation": {
+    "type": "Null",
+    "nullable": true
+  },
+  "is_latest_version": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "architecture_type": {
+    "type": "String",
+    "nullable": true
+  },
+  "parameter_count_b": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "parameter_count_active_b": {
+    "type": "Null",
+    "nullable": true
+  },
+  "num_layers": {
+    "type": "Null",
+    "nullable": true
+  },
+  "num_attention_heads": {
+    "type": "Null",
+    "nullable": true
+  },
+  "context_window_tokens": {
+    "type": "Int64",
+    "nullable": true
+  },
+  "training_tokens_b": {
+    "type": "Null",
+    "nullable": true
+  },
+  "mixture_of_experts": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "num_experts": {
+    "type": "Int64",
+    "nullable": true
+  },
+  "expert_routing_strategy": {
+    "type": "Null",
+    "nullable": true
+  },
+  "supports_text_input": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_image_input": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_audio_input": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_video_input": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_document_input": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_text_output": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_image_output": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_audio_output": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_code": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_function_calling": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_structured_output": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "supports_streaming": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "price_input_per_1m_tokens_usd": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "price_output_per_1m_tokens_usd": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "price_cached_input_per_1m_tokens_usd": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "price_image_input_per_image_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "price_audio_input_per_min_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "price_fine_tuning_input_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "price_fine_tuning_output_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "price_batch_input_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "price_batch_output_usd": {
+    "type": "Null",
+    "nullable": true
+  },
+  "has_free_tier": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "free_tier_limit_description": {
+    "type": "Null",
+    "nullable": true
+  },
+  "pricing_last_updated": {
+    "type": "String",
+    "nullable": true
+  },
+  "throughput_tokens_per_sec": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "latency_first_token_ms": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "latency_p50_ms": {
+    "type": "Null",
+    "nullable": true
+  },
+  "latency_p90_ms": {
+    "type": "Null",
+    "nullable": true
+  },
+  "max_output_tokens": {
+    "type": "Int64",
+    "nullable": true
+  },
+  "requests_per_minute_limit": {
+    "type": "Null",
+    "nullable": true
+  },
+  "tokens_per_minute_limit": {
+    "type": "Null",
+    "nullable": true
+  },
+  "supports_parallel_requests": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "inference_provider": {
+    "type": "String",
+    "nullable": true
+  },
+  "deployment_region": {
+    "type": "String",
+    "nullable": true
+  },
+  "bench_mmlu_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_mmlu_pro_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_gpqa_diamond_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_gpqa_main_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_aime_2024_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_aime_2025_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_math_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_gsm8k_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_arc_challenge_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_hellaswag_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_winogrande_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_bbh_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_ifeval_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_truthfulqa_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_humaneval_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_mbpp_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_swe_bench_verified_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_swe_bench_lite_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_livecodebench_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_polyglot_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_ds1000_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_codeforces_rating": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_mmmu_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_mmmu_pro_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_mathvista_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_chartqa_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_docvqa_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_vqa_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_livebench_vision_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_video_mme_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_livebench_overall_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_helm_overall_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_artificial_analysis_quality_score": {
+    "type": "Null",
+    "nullable": true
+  },
+  "bench_lmarena_elo": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_chatbot_arena_elo": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "bench_overall_rank": {
+    "type": "Null",
+    "nullable": true
+  },
+  "is_open_source": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "is_open_weights": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "model_license": {
+    "type": "String",
+    "nullable": true
+  },
+  "license_commercial_use": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "license_derivatives_allowed": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "huggingface_model_id": {
+    "type": "String",
+    "nullable": true
+  },
+  "huggingface_downloads_30d": {
+    "type": "Int64",
+    "nullable": true
+  },
+  "huggingface_likes": {
+    "type": "Int64",
+    "nullable": true
+  },
+  "github_repo_url": {
+    "type": "Null",
+    "nullable": true
+  },
+  "github_stars": {
+    "type": "Null",
+    "nullable": true
+  },
+  "paper_title": {
+    "type": "Null",
+    "nullable": true
+  },
+  "paper_arxiv_id": {
+    "type": "Null",
+    "nullable": true
+  },
+  "paper_url": {
+    "type": "Null",
+    "nullable": true
+  },
+  "paper_published_date": {
+    "type": "Null",
+    "nullable": true
+  },
+  "paper_citation_count": {
+    "type": "Null",
+    "nullable": true
+  },
+  "papers_with_code_url": {
+    "type": "Null",
+    "nullable": true
+  },
+  "knowledge_cutoff_date": {
+    "type": "String",
+    "nullable": true
+  },
+  "training_data_description": {
+    "type": "Null",
+    "nullable": true
+  },
+  "data_source_primary": {
+    "type": "String",
+    "nullable": true
+  },
+  "data_sources_all": {
+    "type": "String",
+    "nullable": true
+  },
+  "data_collected_at": {
+    "type": "String",
+    "nullable": true
+  },
+  "data_freshness_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "record_version": {
+    "type": "String",
+    "nullable": true
+  },
+  "record_created_at": {
+    "type": "String",
+    "nullable": true
+  },
+  "record_updated_at": {
+    "type": "String",
+    "nullable": true
+  },
+  "is_deprecated": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "deprecation_date": {
+    "type": "Null",
+    "nullable": true
+  },
+  "successor_model_id": {
+    "type": "Null",
+    "nullable": true
+  },
+  "quality_score": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "completeness_pct": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "price_ratio_output_to_input": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "cost_per_1k_tokens_balanced": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "multimodal_score": {
+    "type": "Int32",
+    "nullable": true
+  },
+  "is_multimodal": {
+    "type": "Boolean",
+    "nullable": true
+  },
+  "capability_count": {
+    "type": "Int32",
+    "nullable": true
+  },
+  "benchmark_knowledge_avg": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "benchmark_coding_avg": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "benchmark_vision_avg": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "benchmark_overall_avg": {
+    "type": "Float64",
+    "nullable": true
+  },
+  "days_since_release": {
+    "type": "Int64",
+    "nullable": true
+  }
+}

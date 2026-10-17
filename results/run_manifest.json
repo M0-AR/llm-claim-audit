@@ -1,0 +1,45 @@
+{
+  "mode": "snapshot",
+  "generated_at": "2026-10-17T18:35:25Z",
+  "python": "3.12.13",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.41",
+  "steps": [
+    {
+      "step": "fetch_live",
+      "status": "skipped",
+      "reason": "snapshot mode"
+    },
+    {
+      "step": "verify_claims",
+      "status": "ok"
+    },
+    {
+      "step": "cross_validate",
+      "status": "ok"
+    },
+    {
+      "step": "leaderboard_audit",
+      "status": "ok"
+    },
+    {
+      "step": "token_reenactment",
+      "status": "ok"
+    }
+  ],
+  "artifacts": {
+    "claims/claims.csv": "ce3031449896b99aa5c98ace3e350d64f8b7de932936a95713b0fd6c7e447baf",
+    "results/claim_audit.csv": "3941979803b94cb5cfa459788c3d948e675ac0127af006b52731a4a3c7f98791",
+    "results/claim_audit_summary.json": "018fc7e207aaaa3d010c8df012a35def0495598b346973062eb6f9b7818f411b",
+    "results/fx_triangulation.csv": "49fa24cedb040ad30ad245103f892eeed7cafb6b98c7f5e44b8b14dc3abd3941",
+    "results/fx_triangulation.json": "2c845740e09678f0eaa71b3279537f4feee0264d75a8e18b63d2cd13159336fc",
+    "results/leaderboard_convergence.json": "a0fe72b9c5e9ce730fe1c98c6da4336060f156aceaa93ca460e07c79a9e60b51",
+    "results/leaderboard_topk.csv": "6a4d9354bd79de384f9906abfb4588bcc8c06c63dbfd5fa20e8121273999d142",
+    "results/run_manifest.json": "a27072812a3cfe385c9616e86d4bcec8469ced4efc0941609388486e586147c2",
+    "results/token_reenactment.json": "fbf14311f5821f936903105a1c501f8cfd2096e40c767061a6362fa046d7b0f5",
+    "data/live/coingecko_btc_eur.json": "8387f263bc335e933aefcb27056922891f645753e9ae535f51736669591b5c56",
+    "data/live/coingecko_btc_usd.json": "a2e3e8783f2d3c459b25b1156753b508b6197bc07176b8b3d435dc6d031d7b35",
+    "data/live/ecb_eurusd.json": "6a6500fbdc08bdbc33e376e17136ce4ed64d77b38536ccf22a0c9a3995a91a24",
+    "data/live/yahoo_btc.json": "e2037ea3a34580db4b11e8b3f44269dd19a645ffda0ccc048b862501637f1c6f",
+    "data/live/yahoo_eurusd.json": "8fd62715448a581ee8f32554749396998abd48f6d8b67362b4de385662bbde3a"
+  }
+}

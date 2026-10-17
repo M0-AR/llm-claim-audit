@@ -1,0 +1,26 @@
+{
+  "dataset_name": "Frontier AI Models Intelligence Hub",
+  "dataset_version": "1.0.0",
+  "pipeline_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "kaggle_dataset_slug": "frontier-ai-models-intelligence-hub",
+  "kaggle_username": "saitejabandaru",
+  "total_records": 90,
+  "total_columns": 130,
+  "sources_used": [
+    "seed_data"
+  ],
+  "export_formats": [
+    "models.csv",
+    "models.parquet",
+    "models.json",
+    "benchmarks.csv",
+    "providers.csv",
+    "frontier_ai_hub.sqlite",
+    "schema.json",
+    "stats.json"
+  ],
+  "generated_at": "2026-08-06T20:54:00.554590",
+  "license": "CC BY 4.0",
+  "maintainer": "saitejabandaru"
+}

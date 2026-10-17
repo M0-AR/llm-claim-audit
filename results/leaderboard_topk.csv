@@ -1,0 +1,25 @@
+rank,model,score
+1,GPT-5.2,90.3
+2,Gemini 3.1 Pro,90.22
+3,Claude Opus 4.6,89.6
+4,Claude Opus 4.5,88.82
+5,GPT-5.3 Codex,88.62
+6,o3,86.9
+7,Gemini 2.5 Pro,86.65
+8,Qwen3.5 Plus,86.4
+9,MiniMax-M2.5,84.45
+10,Claude Sonnet 4.6,84.35
+11,Grok 4.1,82.48
+12,DeepSeek V3.2,80.45
+13,Gemini 2.5 Flash,78.55
+14,Llama 4 Maverick,77.12
+15,DeepSeek R1,76.42
+16,GLM-5,75.42
+17,Llama 4 Scout,73.32
+18,Claude Haiku 4.5,73.18
+19,Mistral Large 3,71.0
+20,GPT-4o,70.35
+21,Llama 3.3 70B,68.7
+22,Mistral Medium 3,67.12
+23,Granite 3.3 8B,54.22
+24,Gemma 3n E4B,47.98

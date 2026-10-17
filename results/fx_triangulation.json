@@ -1,0 +1,61 @@
+{
+  "n_crypto_days": 8,
+  "n_aligned_with_ecb": 5,
+  "n_crypto_days_without_ecb_fixing": 3,
+  "unpublished_dates": [
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-17"
+  ],
+  "unpublished_weekdays": [
+    "Saturday",
+    "Sunday"
+  ],
+  "median_abs_diff_bps": 12.57,
+  "max_abs_diff_bps": 22.25,
+  "signed_diffs_bps": [
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "diff_bps": -22.25
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "diff_bps": 9.07
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "diff_bps": -19.44
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "diff_bps": 5.29
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "diff_bps": -12.57
+    }
+  ],
+  "tolerance_bps": 100.0,
+  "tolerance_passed": true,
+  "cross_vendor": {
+    "ecb_last_date": "2026-10-16",
+    "ecb_last_rate": 1.1253,
+    "yahoo_fx_current": 1.1242,
+    "yahoo_fx_vs_ecb_last_bps": -9.78,
+    "yahoo_fx_last_close": 1.1221,
+    "yahoo_fx_last_close_vs_ecb_last_bps": -28.44,
+    "note": "Vendor 'current' is intraday; ECB fixing is a ~16:00 CET snapshot, so some spread is expected.",
+    "btc_usd": {
+      "coingecko_last_date": "2026-10-17",
+      "coingecko_last_close": 81449.33,
+      "yahoo_current": 81432.34,
+      "yahoo_vs_coingecko_bps": -2.09
+    }
+  },
+  "method": "Triangular implied EUR/USD = 1 / (BTC_EUR / BTC_USD) computed on CoinGecko daily closes; compared against the same-date ECB reference rate. Crypto daily closes are 00:00 UTC snapshots while the ECB fixing is ~16:00 CET, so residual deviations mix genuine basis with timestamp misalignment."
+}

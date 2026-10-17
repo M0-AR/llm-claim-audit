@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-17T18:35:25Z",
+  "n_claims": 17,
+  "counts_by_status": {
+    "verified": 8,
+    "outdated": 2,
+    "verified_with_caveat": 1,
+    "superseded": 4,
+    "advice_still_supported": 1,
+    "verified_evolved": 1
+  },
+  "era_dependent_drift": {
+    "n_era_dependent_claims": 10,
+    "n_drifted": 6,
+    "drift_rate": 0.6,
+    "wilson_95_ci": [
+      0.3127,
+      0.8318
+    ],
+    "drifted_claim_ids": [
+      "C03",
+      "C08",
+      "C11",
+      "C12",
+      "C13",
+      "C16"
+    ]
+  },
+  "science_stable_durability": {
+    "n_science_claims": 4,
+    "n_verified": 4,
+    "all_hold": true
+  },
+  "machine_checks": {
+    "frontier_models_rows": 90,
+    "gpt4o_rows": [
+      {
+        "model_name": "Gpt-4O",
+        "release_date": "2024-05-13",
+        "knowledge_cutoff_date": "2023-12-01",
+        "is_deprecated": "false",
+        "deprecation_date": ""
+      },
+      {
+        "model_name": "Gpt-4O-Mini",
+        "release_date": "2024-07-18",
+        "knowledge_cutoff_date": "2023-12-01",
+        "is_deprecated": "false",
+        "deprecation_date": ""
+      }
+    ],
+    "models_with_knowledge_cutoff": 90,
+    "lmarena_elo_present": true,
+    "chatbot_arena_elo_present": true,
+    "lmarena_elo_nonnull": 90,
+    "chatbot_arena_elo_nonnull": 90
+  },
+  "ledger_path": "claims/claims.csv"
+}

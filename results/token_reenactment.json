@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-17T18:35:25Z",
+  "tiktoken_version": "0.14.0",
+  "encoding": "o200k_base",
+  "vocab_size_mergeable_ranks": 199998,
+  "vocab_size_total": 200019,
+  "vocabulary_claim": "~200,000",
+  "vocabulary_claim_holds": true,
+  "query": {
+    "reconstruction": "give me a haiku about what it's like to be a large language model",
+    "tokens": 15
+  },
+  "response": {
+    "reconstruction": "words flow like a stream, endless echo, never mind - ghost of thought unseen",
+    "tokens": 16
+  },
+  "chat_formatted": {
+    "template": "<|im_start|>role\\n content...<|im_end|>",
+    "tokens": 59
+  },
+  "video_claim": {
+    "query_tokens": 15,
+    "response_tokens": 19,
+    "chat_total_tokens": 42
+  },
+  "chat_special_token_overhead": 28,
+  "verdict": "Method reproduced end to end with the shipped GPT-4o tokenizer. Exact claim triple (15, 19, 42) is not reproducible without the verbatim original strings; the reconstruction demonstrates the same turn-structure arithmetic plus the chat-format overhead of special tokens."
+}

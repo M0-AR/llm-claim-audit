@@ -1,0 +1,11 @@
+{
+  "source": "Yahoo Finance v8 API",
+  "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD",
+  "retrieved_via": "agent-reach MCP stock_quote",
+  "fetched_at": "2026-10-17T21:40:00Z",
+  "symbol": "BTC-USD",
+  "current": 81432.34,
+  "last_close": 81501.61,
+  "market_time_unix": 1792261419,
+  "quote_currency": "USD"
+}

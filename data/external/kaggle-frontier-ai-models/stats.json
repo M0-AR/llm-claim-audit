@@ -1,0 +1,85 @@
+{
+  "total_models": 90,
+  "total_providers": 17,
+  "total_columns": 130,
+  "avg_context_window_tokens": 112501.0,
+  "max_context_window_tokens": 1000000,
+  "open_source_pct": 55.6,
+  "multimodal_models_count": 23,
+  "provider_distribution": [
+    {
+      "provider_name": "OpenAI",
+      "len": 12
+    },
+    {
+      "provider_name": "Google",
+      "len": 11
+    },
+    {
+      "provider_name": "Anthropic",
+      "len": 9
+    },
+    {
+      "provider_name": "Meta",
+      "len": 9
+    },
+    {
+      "provider_name": "Mistral",
+      "len": 9
+    },
+    {
+      "provider_name": "Qwen",
+      "len": 8
+    },
+    {
+      "provider_name": "Microsoft",
+      "len": 5
+    },
+    {
+      "provider_name": "01.AI",
+      "len": 4
+    },
+    {
+      "provider_name": "DeepSeek",
+      "len": 4
+    },
+    {
+      "provider_name": "xAI",
+      "len": 4
+    },
+    {
+      "provider_name": "Amazon",
+      "len": 3
+    },
+    {
+      "provider_name": "Cohere",
+      "len": 3
+    },
+    {
+      "provider_name": "tii",
+      "len": 3
+    },
+    {
+      "provider_name": "AI21 Labs",
+      "len": 2
+    },
+    {
+      "provider_name": "NVIDIA",
+      "len": 2
+    },
+    {
+      "provider_name": "Databricks",
+      "len": 1
+    },
+    {
+      "provider_name": "novasky",
+      "len": 1
+    }
+  ],
+  "benchmark_coverage_pct": 100.0,
+  "last_updated": "2026-08-06T20:54:00.554590",
+  "seed_version": "1.0.0",
+  "data_sources": [
+    "seed_data"
+  ]
+}

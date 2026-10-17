@@ -1,0 +1,12 @@
+{
+  "run_date": "2026-08-06T22:51:33.761916",
+  "total_records": 0,
+  "valid_records": 0,
+  "duplicate_count": 0,
+  "avg_completeness_pct": 0.0,
+  "columns_with_high_null_pct": [],
+  "anomalies_detected": [],
+  "broken_urls": [],
+  "freshness_warnings": [],
+  "overall_quality_score": 0.0
+}

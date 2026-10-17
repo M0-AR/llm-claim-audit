@@ -1,0 +1,22 @@
+{
+  "source": "European Central Bank reference rates via Frankfurter API",
+  "endpoint": "https://api.frankfurter.dev/v1/2026-10-02..2026-10-16?base=EUR&symbols=USD",
+  "retrieved_via": "openresearch MCP get_fx_rate (same upstream Frankfurter/ECB feed)",
+  "fetched_at": "2026-10-17T21:35:00Z",
+  "base": "EUR",
+  "quote": "USD",
+  "publication_rule": "ECB reference rates are published around 16:00 CET on working days only; no weekend or TARGET holiday values exist.",
+  "rates": [
+    {"date": "2026-10-02", "rate": 1.1225},
+    {"date": "2026-10-05", "rate": 1.1204},
+    {"date": "2026-10-06", "rate": 1.1269},
+    {"date": "2026-10-07", "rate": 1.1177},
+    {"date": "2026-10-08", "rate": 1.1186},
+    {"date": "2026-10-09", "rate": 1.1206},
+    {"date": "2026-10-12", "rate": 1.1181},
+    {"date": "2026-10-13", "rate": 1.1188},
+    {"date": "2026-10-14", "rate": 1.1195},
+    {"date": "2026-10-15", "rate": 1.1208},
+    {"date": "2026-10-16", "rate": 1.1253}
+  ]
+}

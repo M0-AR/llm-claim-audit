@@ -1,0 +1,11 @@
+{
+  "source": "Yahoo Finance v8 API",
+  "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X",
+  "retrieved_via": "agent-reach MCP stock_quote",
+  "fetched_at": "2026-10-17T21:40:00Z",
+  "symbol": "EURUSD=X",
+  "current": 1.1242,
+  "last_close": 1.1221,
+  "market_time_unix": 1792239652,
+  "quote_currency": "USD"
+}
